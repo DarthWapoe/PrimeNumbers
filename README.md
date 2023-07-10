@@ -1,2 +1,4 @@
 # PrimeNumbers
-PrimeNumbers exercise
+PrimeNumbers exercise from the BUHL-Team
+
+Greetings!
