@@ -1,6 +1,6 @@
 ﻿namespace Prime
 {
-    class SieveOfEratosthenes : Primal
+    public class SieveOfEratosthenes : Primal
     {
         public override void Process()
         {

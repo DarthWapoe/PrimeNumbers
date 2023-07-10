@@ -1,6 +1,6 @@
 ﻿namespace Prime
 {
-    abstract class PrimeNumbers
+    public abstract class PrimeNumbers
     {
         protected List<int> primeNumbers = new();
 

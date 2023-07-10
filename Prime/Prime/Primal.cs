@@ -1,6 +1,6 @@
 ﻿namespace Prime
 {
-    class Primal : PrimeNumbers
+    public class Primal : PrimeNumbers
     {
         protected int ToNumber;
 
