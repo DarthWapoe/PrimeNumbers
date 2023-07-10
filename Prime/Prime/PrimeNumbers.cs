@@ -1,12 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Prime
+﻿namespace Prime
 {
-    internal class PrimeNumbers
+    abstract class PrimeNumbers
     {
+        protected List<int> primeNumbers = new();
+
+        public List<int> GetPrimeNumbers()
+        {
+            return primeNumbers;
+        }
+
+        public int GetSum()
+        {
+            return primeNumbers.Sum();
+        }
+
+        public float GetAverage()
+        {
+            return (float)GetSum() / primeNumbers.Count;
+        }
+
+        public abstract void Process();
     }
 }
